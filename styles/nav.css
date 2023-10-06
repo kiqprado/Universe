@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 5.4rem;
+
+  padding: 4rem 7.2rem;
+}
+
+#logo {
+  border: none;
+  background: transparent;
+}
+
+#logo img {
+  width: 4.2rem;
+}
+
+a {
+  color: var(--text-base);
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  font-weight: bold;
+  color: var(--white);
+  transform: scale(1.1);
+}
